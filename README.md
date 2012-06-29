@@ -29,6 +29,7 @@ El tema esta recien salido del horno y quedan para ajustar muchas cosas.
 * Panel de control para modificar varias opciones (muy a futuro)
 * Correccion del modulo de comentarios
 * i18n y la posibilidad de hacerlo reactivo para que se vea bien en otros dispositivos
+
 Son muchas las cosas que hacer y seguramente me estare olvidando de alguna, si necesitas
 alguna funcion en especial puedes contactarme.
 
