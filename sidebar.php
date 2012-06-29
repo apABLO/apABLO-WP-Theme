@@ -8,6 +8,9 @@
 				</div>
 			</form>
 		</li>
+
+		<?php if ( !function_exists('dynamic_sidebar') || !dynamic_sidebar() ) : ?>
+
 		<?php wp_list_pages('title_li=<h2>Páginas</h2>'); ?>
 
 		<?php wp_list_categories('title_li=<h2>Categorias</h2>'); ?>
@@ -26,5 +29,6 @@
 				<li><a href="<?php bloginfo('comments_rss2_url'); ?>" title="Suscribete a los Comentarios!">Suscribete a los comentarios!</a></li>
 			</ul>
 		</li>
+		<?php endif; ?>
 	</ul>
 </div>
