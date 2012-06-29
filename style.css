@@ -6,22 +6,39 @@
 	Author: Pablo Albornoz
 	Author URI: http://pablo.albornoz.me/
 */
+
+/* Copyright 2012 Pablo Albornoz (email : http://pablo.albornoz.me/contacto/)
+
+This program is free software; you can redistribute it and/or modify
+it under the terms of the GNU General Public License, version 2, as
+published by the Free Software Foundation.
+
+This program is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
+GNU General Public License for more details.
+
+You should have received a copy of the GNU General Public License
+along with this program; if not, write to the Free Software
+Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA
+*/
+
 body {
-	background-image: url(/wp-content/themes/apABLO/imagenes/fondo.jpg);
+	background-image: url(imagenes/fondo.jpg);
 	text-align: center;
 	padding: 0;
 	margin: 0;
 	font-family: Arial, "MS Trebuchet", sans-serif;
-}
+	}
 /* CABECERA DE PAGINA */
 #header {
 	margin: auto;
 	width: 900px;
 	text-align: left;
-}
+	}
 /* MENU DE NAVEGACION HORIZONTAL */
 #navmenu {
-	background-image: url(/wp-content/themes/apABLO/imagenes/fondo_menu.jpg);
+	background-image: url(imagenes/fondo_menu.jpg);
 	height: 38px;
 	border: 1px solid #000;
 	}
@@ -52,7 +69,7 @@ body {
 	}
 /* PIE DE PAGINA */
 #footer{
-	background-image: url(/wp-content/themes/apABLO/imagenes/fondo_pie.jpg);
+	background-image: url(imagenes/fondo_pie.jpg);
 	height: 98px;
 	border: 1px solid #000;
 	margin: 10px 0px;
@@ -79,7 +96,7 @@ body {
 	border-left: 1px solid #000;
 	border-right: 1px solid #000;
 	border-bottom: 1px solid #000;
-	background-image: url(/wp-content/themes/apABLO/imagenes/fondo_contenido.jpg);
+	background-image: url(imagenes/fondo_contenido.jpg);
 	}
 #content {
 	width: 598px;
@@ -99,7 +116,7 @@ body {
 	padding: 0;
 	}
 #sidebar ul li h2 {
-	background-image: url(/wp-content/themes/apABLO/imagenes/titulo_sidebar2.jpg);
+	background-image: url(imagenes/titulo_sidebar2.jpg);
 	font: normal normal bold 14px Arial, sans-serif;
 	line-height: 37px;
 	margin: 0;
@@ -203,23 +220,23 @@ a img {
 	margin-top: 10px;
 	padding: 10px 10px;
 	border: 1px solid #ccc;
-}
+	}
 #comments ol {
 	list-style: none;
 	margin: 10px 0;
 	padding: 0;
-}
+	}
 #comments ol li {
 	list-style: none;
 	margin: 10px 0 0;
 	padding: 0 0 10px;
 	border-bottom: 1px solid #ddd;
 	line-height: 24px;
-}
+	}
 #comments span.comment-author {
 	font-weight: bold;
-}
+	}
 #respond {
 	padding: 10px;
 	background: #eee;
-}
+	}

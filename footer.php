@@ -2,7 +2,7 @@
 </div>
 <div id="footer">
 	<div id="pie" >
-		apABLO &copy; 2012
+		<?php bloginfo('name'); ?> &copy; 2012
 		<?php wp_footer(); ?>
 	</div>
 </div>
