@@ -27,6 +27,7 @@
 	<?php foreach ($comments as $comment) : ?>
 
 		<li class="<?php echo $oddcomment; ?>" id="comment-<?php comment_ID() ?>">
+			<span class="comment-gravatar"><?php echo get_avatar(get_the_author_meta('user_email'), $size = '80'); ?></span>
 			<span class="comment-author"><?php comment_author_link() ?></span> dijo:
 			<?php if ($comment->comment_approved == '0') : ?>
 			<em>Tu comentario esta a la espera de moderacion.</em>
@@ -34,7 +35,7 @@
 
 			<div class="comment-text"><?php comment_text() ?><div class="clear"></div></div>
 
-			<small class="commentmetadata">Puesto el <a href="#comment-<?php comment_ID() ?>" title=""><?php comment_date('j \d\e F \d\e Y') ?> a las <?php comment_time() ?></a> <?php edit_comment_link('e','',''); ?></small>
+			<small class="commentmetadata">Puesto el <a href="#comment-<?php comment_ID() ?>" title=""><?php comment_date('j \d\e F \d\e Y') ?> a las <?php comment_time() ?></a> <?php edit_comment_link('editar comentario','',''); ?></small>
 
 		</li>
 

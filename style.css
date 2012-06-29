@@ -240,3 +240,10 @@ a img {
 	padding: 10px;
 	background: #eee;
 	}
+#comments span.comment-gravatar {
+	float: left;
+	border: 2px solid #E5EFCA;
+	width: 80px;
+	height: 80px;
+	margin-right: 10px;
+	}
